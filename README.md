@@ -1,2 +1,3 @@
-# subscription-service-template
-This repo is a template for creating a webservice based on supabase, react, and stripe
+# README
+
+This repo assumes you've gotten your preferred versions of `terraform`, `supabase` and the `gcp` cli installed and configured properly

@@ -1,0 +1,22 @@
+{
+  "name": "subscription-service-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build . -t gcr.io/<PROJECT_NAME>/app -t <PROJECT_NAME>" ,
+    "push": "docker push -t gcr.io/<PROJECT_NAME>/app",
+    "build-and-push": "npm run build && npm run push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twelventi/subscription-service-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twelventi/subscription-service-template/issues"
+  },
+  "homepage": "https://github.com/twelventi/subscription-service-template#readme"
+}
